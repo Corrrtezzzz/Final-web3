@@ -1,0 +1,302 @@
+/*index styling section*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+.home {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #ffe4e1, #d5bba9);
+}
+nav {
+    top: 0%;
+    left: 0;
+    width: 80%;
+    text-transform: uppercase;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    background: linear-gradient(to left, #eeccee, #eeccee);
+    box-shadow: 8px 8px 20px;
+    z-index: 1;
+}
+body{
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 250px;
+    height: 250px;
+}
+.links{
+    flex: 1;
+    text-align: right;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+}
+.links ul li a:hover{
+    background-color:#aa2211;
+    color: #16000b !important;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all ease 0.4s;
+}
+.heading{
+    font-family: sans-serif;
+    width:500px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-20%,-50%);
+}
+.heading p{
+	font-family: sans-serif;
+    color: #16000b;
+    font-size: 18px;
+}
+.heading h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #16000b;
+}
+
+.heading h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #16000b;
+}
+
+.heading h3{
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 0px;
+	letter-spacing: 3px;
+	color: #16000b;
+}
+	
+	
+
+/* skills styling section */
+
+.about-text {
+    font-family: calibri;
+    width: 50%;
+}
+
+.about-text button {
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background-color: #ffff31;
+    }
+
+.about-text button:hover {
+        background-color: #FFFFFF;
+        transition: all ease 0.3s;
+    }
+
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 8px 15px white;
+    background-color: transparent;
+    text-align: center;
+    z-index: 5;
+    width: 650px;
+    position: center;
+    margin-bottom: 20px;
+}
+
+thead {
+    box-shadow: 0 8px 15px white;
+}
+
+th {
+    padding: 3rem 6rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+}
+
+td {
+    padding: 3%;
+	font-size: 1.3rem;
+    color: white;
+}
+
+h1 {
+    color:white;
+}
+
+
+/*about me section*/
+
+.about-text2 {
+    font-family: calibri;
+    width: 50%;
+}
+
+.about-text2 button {
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background-color: #ffc0cb;
+		
+		
+}
+
+.about-text2 button:hover {
+        background-color: #969bec;
+        transition: all ease 0.3s;
+}
+.info p{
+	font-family: "Lucida Handwriting", Cursive;
+    color: white;
+    font-size: 30px;
+}
+
+.header{
+	padding-left: 170px;
+	margin: 10px;
+}
+
+.header h1{
+	font-family: Papyrus, Fantasy;
+	color:  white;
+}
+
+.ako{
+	width: 250px;
+	height: 250px;
+}
+
+
+
+/*contacts section*/
+.about-text3 {
+    font-family: calibri;
+    width: 50%;
+}
+
+.about-text3 button {
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background-color: #344CB7;
+		
+		
+}
+
+.about-text3 button:hover {
+        background-color: #FF1700;
+        transition: all ease 0.3s;
+}
+
+.facebook{
+	width: 75px;
+	height: 75px;
+}
+
+.twitter{
+	width: 75px;
+	height: 75px;
+}
+
+/*contact section*/
+
+.contactInfo p{
+	font-family: calibri;
+	font-size: 40px;
+	color: black;
+}
+
+.contactInfo h1{
+	font-family: calibri;
+	font-size: 40px;
+	color: black;
+	background: linear-gradient(to right, #ffe4e1, #0000ff);
+	top: 0%;
+    left: 0;
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    padding: 10px 50px;
+    box-shadow: 8px 8px 20px;
+    z-index: 1;
+}
+
+.time {
+	font-size: 40px;
+	color: black;
+	background: #F999B7;
+	width: 60%;
+    margin: 10px auto;
+    align-items: center;
+    padding: 10px 50px;
+    box-shadow: 8px 8px 20px;
+    z-index: 1;
+}
+
+/*snake Section*/
+
+.about-text4 {
+    font-family: calibri;
+    width: 50%;
+}
+
+.about-text4 button {
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background-color: #344CB7;
+		
+		
+}
+
+.about-text4 button:hover {
+        background-color: #FF1700;
+        transition: all ease 0.3s;
+}
+
+.komisan{
+	width: 500px;
+	height: 500px;
+	box-shadow: 8px 8px 20px;
+    z-index: 1;
+	padding: 2px 7px;
+	margin: 10px auto;
+}
+
+.tv{
+	box-shadow: 8px 8px 20px;
+    z-index: 1;
+	padding: 2px 7px;
+	margin: 10px auto;
+}
